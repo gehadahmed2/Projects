@@ -1,0 +1,1088 @@
+/*
+        ***************************
+    
+            PUBLIC STYLES
+        =============================
+*/
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+
+body{
+    font-family: lucida sans,arial;
+    height: auto;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    padding: 5px 0;
+    background: #fff;
+    
+}
+.navbar .logo{
+    width: 50%;
+    float: left
+}
+.navbar .ul-list{
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+.navbar .ul-list .list-item{
+    display: inline-block;
+}
+.navbar .ul-list .list-item a{
+    text-decoration: none;
+    display: block;
+    padding: 24px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777;
+}
+.navbar .ul-list .list-item a:hover{
+    color: #A0D051;
+}
+
+.navbar .ul-list .active
+{
+   color: #A0D051;
+}
+
+
+
+
+
+
+/*
+        ***************************
+    
+           HOME STYLES
+        =============================
+*/
+
+
+.home{
+    height: 85vh;
+    background: url('../images/slider/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.home .home-info
+{
+    padding: 170px;
+    
+
+}
+
+.home .home-info .home-title 
+{
+   color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.home .home-info .home-title2
+{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 35px;
+   
+}
+
+.home .home-info .btn{ 
+    padding: 15px 97px;
+    background: #95CB3D;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+}
+
+.home .home-info .btn:hover
+{
+    background: #fff;
+    color: #95CB3D;
+}
+
+
+
+/*
+        ***************************
+    
+           SERVICES STYLES
+        =============================
+*/
+
+.service
+{
+    padding: 100px;
+}
+
+
+.service .box .service-info
+{
+     width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.service .box .first
+{
+    margin-left: 0;
+}
+
+.service .box .service-info .icon
+{
+    width: 20%;
+    float: left;
+    font-size: 42px;
+    color: #202020;
+    
+}
+
+.service .box .service-info .icon-info
+{
+    width:80%;
+    float: left;
+    
+    
+}
+
+.service .box .service-info .icon-info .service-title
+{
+     color: rgba(32,32,32,0.9);
+    font-size: 20px;
+    letter-spacing:1px;
+    margin-bottom: 11px;
+}
+
+.service .box .service-info .icon-info hr
+{
+     height: 0.9px;
+    background: #000;
+    margin-bottom: 11px;
+}
+
+.service .box .service-info .icon-info .service-desc
+{
+    color: rgba(32,32,32,0.7);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+/*
+        ***************************
+    
+           CREATIVE STYLES
+        =============================
+*/
+
+.creative
+{
+    height: 65vh;
+    background: url('../images/divider-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.creative .creative-info{
+    width: 70%;
+    padding-top: 100px;
+    margin-left: 73px;
+        
+}
+
+.creative .creative-info .creative-title1 h1
+{
+    color: #fff;
+    font-size: 35px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.creative .creative-info .creative-title1 h1 span
+{
+    color:#95CB3D;
+}
+
+.creative .creative-info .creative-title2 h2
+{
+    color: #fff;
+    margin-bottom: 35px;
+    word-spacing: 2px;
+}
+
+.creative .creative-info .creative-title2 h2 span
+{
+   background: #FBF7E2;
+    color: #000;
+    padding: 5px;
+}
+
+.creative .creative-info .creative-desc
+{
+   color: rgba(255,255,255,0.9);
+    line-height: 1.5;
+}
+
+
+
+
+
+/*
+        ***************************
+    
+            ABOUT STYLES
+        =============================
+*/
+.about{
+    padding: 100px 0;
+    
+}
+.about .about-sol{
+    width: 50%;
+    float: left;
+}
+.about .about-sol .about-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #93CA3A;
+}
+.about .about-sol .about-title2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.about .about-sol .about-desc,.about .about-sol .about-desc2{
+    line-height: 1.5;
+    color: rgba(32,32,32,0.7);
+    margin-bottom: 11px;
+}
+.about .about-prog{
+    width: 50%;
+    float: left;
+}
+.about .about-prog .bar{
+     margin-bottom: 16px;
+    padding: 10px 0;
+    margin-left: 30px;
+}
+.about .about-prog .bar .title{
+    float: left;
+    color:#6B6B6B;
+}
+.about .about-prog .bar .perc{
+    float: right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+.about .about-prog .bar .parent{
+    height: 6px;
+    background: #ECECEC;
+    clear: both;
+    position: relative;
+    top:5px;
+    border-radius: 15px;
+}
+.about .about-prog .bar .parent span{
+    background:#93CA3A; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    border-radius: 15px;
+}
+.about .about-prog .bar .parent span.sp1{
+    width: 100%
+}
+.about .about-prog .bar .parent span.sp2{
+    width: 80%
+}
+.about .about-prog .bar .parent span.sp3{
+    width: 90%
+}
+.about .about-prog .bar .parent span.sp4{
+    width: 70%
+}
+
+/*
+        ***************************
+    
+           TEAM STYLES
+        =============================
+*/
+
+.team
+{
+     padding: 100px 0;
+     border-top: 1px solid #F2F2F2;
+    
+}
+
+.team .team-title
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.team .box1 .box1-img
+{
+    width: 32%;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    
+   
+}
+
+.team .box1 .first
+{
+    margin-left: 0;
+}
+
+.team .box1 .box1-img img
+{
+    width: 95%;
+    border: 11px solid beige;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+} 
+
+.box1 .img1:hover img{
+    opacity: 0.4
+}
+
+
+.team .box1 .box1-img h5
+{
+    color: #383838;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+
+.team .box1 .box1-img h2
+{
+    color:#93CA3A;
+    padding-bottom: 15px;
+}
+
+.team .box1 .box1-img p
+{
+    color:#6B6B6B;
+    padding-bottom: 15px;
+}
+
+.team .box1 .box1-img .awesome .icon
+{
+    margin-top: 35px;
+    font-size: 13px;
+    color: #333333;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+    padding-left: 9px;
+    padding-top: 5px;
+    transition: all 0.4s ease-in-out;
+   
+}
+
+.team .box1 .box1-img .awesome .icon:hover 
+{
+  background:#F2F2F2;
+ 
+
+}
+
+
+/*
+        ***************************
+    
+           GET STYLES
+        =============================
+*/
+
+.get{
+    height: 65vh;
+    background: url('../images/newsletter-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.get .get-info{
+    width: 50%;
+    margin: auto;
+    padding: 120px 0;
+}
+.get .get-info .get-title{
+    padding-top: 25px;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center
+}
+.get .get-info .get-desc{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: center
+}
+.form input[type=text]{
+    width: 60%;
+    padding: 15px 0;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+}
+.form input[type=submit]{
+    padding: 15px 0;
+    width: 28%;
+    margin-left: 15px;
+    color: #fff;
+    background:#93CA3A;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*
+        ***************************
+    
+           PRICING STYLES
+        =============================
+*/
+.Our-Pricing{
+    padding: 100px;
+    
+}
+.Our-Pricing .pricing-title{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 22px;
+    
+}
+.Our-Pricing .pricing-box .pricing-content{
+    width: 25%;
+    float: left;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+     transition: all 0.4s ease-in-out;
+}
+
+.Our-Pricing .pricing-box .pricing-content:hover
+{
+    background: #000;
+     
+}
+.Our-Pricing .pricing-box .pricing-content .con-title{
+    padding-top: 65px;
+    color: #9BC848;
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+.Our-Pricing .pricing-box .pricing-content .list{
+    border-top: 1px solid #F2F2F2 ;
+    width: 70%;
+    margin: auto
+      
+}
+
+.Our-Pricing .pricing-box .pricing-content .list .ul-list
+{
+    list-style: none;
+    margin-top: 25px;
+}
+
+.Our-Pricing .pricing-box .pricing-content .list .ul-list .list-item
+{
+   margin-bottom: 40px;
+    color: rgba(32,32,32,0.7);
+    font-size: 15px;
+}
+
+.Our-Pricing .pricing-box .pricing-content .list .ul-list .list-item:hover
+{
+    color: #fff;
+    
+}
+
+.Our-Pricing .pricing-box .third{
+    margin-top: 38px;
+}
+.Our-Pricing .pricing-box .second{
+    margin-top: 76px;
+}
+.Our-Pricing .pricing-box .first{
+    margin-top: 55px;
+}
+
+.Our-Pricing .pricing-box .pricing-content:hover{
+    background: #000;
+}
+.Our-Pricing .pricing-box .pricing-content:hover .list .ul-list .list-item{
+    color: #fff
+}
+
+
+.Our-Pricing .pricing-box .pricing-content .btn
+{
+    margin-bottom: 30px;
+    width: 45%;
+    padding: 6px;
+    background: #9BC848;
+    color: #fff;
+    outline: 0;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Our-Pricing .pricing-box .pricing-content .btn:hover{
+    background: #fff;
+    color:#9BC848; 
+}
+
+/*
+        ***************************
+    
+           PROJECTS STYLES
+        =============================
+*/
+
+.project
+{
+    padding: 100px;
+    border-top: 1px solid #F2F2F2;
+}
+
+.project .project-title
+{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.project .btns
+{
+    text-align: center;
+    margin-bottom: 16px;
+    
+}
+
+.project .btns button
+{
+   
+    margin: 5px;
+    border: none;
+    padding: 12px;
+    color: #9C9C9C;
+    background: #fff;
+    border: 1px solid rgba(242,242,242,1);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.project .box .box-img 
+{
+    width: 31.33%;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 3%;
+    
+    
+}
+
+.project .box .first
+{
+    margin-left: 0;
+}
+
+
+.project .box .box-img img
+{
+    width: 100%;
+    
+}
+
+
+
+/*
+        ***************************
+    
+           VISIT STYLES
+        =============================
+*/
+
+.contact
+{
+    height: 75vh;
+    background: url('../images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact .solution, .contact .form
+{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+
+.contact .solution .sol, .contact .solution .visit
+{
+    width: 50%;
+    float: left;
+
+}
+
+.contact .solution .sol .sol-title
+{
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+.contact .solution .sol .sol-desc
+{
+    color: #E2E2E3;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+
+.contact .solution .sol .awesome .icon
+{
+    margin-top: 37px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #9BC848;
+    cursor: pointer;
+    width: 25px;
+    height: 22px;
+    padding-top: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact .solution .sol .awesome .icon:hover
+{
+    background: #F1F1F1;
+    color: #9BC848;
+}
+
+.contact .solution .visit .visit-title
+{
+    color: #fff;
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+
+.contact .solution .visit .visit-info 
+{
+    color:#fff;
+    margin-bottom: 42px;
+    padding-left: 25px;
+}
+
+.contact .solution .visit .visit-info .icon
+{
+    color: #9BC848;
+    margin-right: 12px;
+    
+}
+.contact .form form
+{
+    padding-left: 70px;
+}
+
+.contact .form form input
+{
+    box-sizing: border-box;
+    margin-bottom: 17px;
+    padding: 9px;
+    outline: 0;
+   
+}
+
+.contact .form form-input input
+{
+    width: 46%;
+}
+
+.contact .form form input[type=text]
+{
+    float: left;
+    border-radius: 4px;
+    background: #F1F1F1;
+    width: 46%;
+    padding: 15px;
+}
+
+.contact .form form input[type=email]
+{
+    float: right;
+    border-radius: 4px;
+    background: #F1F1F1;
+    width: 46%;
+    padding: 15px;
+}
+
+.contact .form form textarea
+{
+     width: 100%;
+    outline: 0;
+    margin-bottom: 4%;
+    background: #F1F1F1;
+    border-radius: 5px;
+}
+
+.contact .form form input[type=submit]
+{
+    background: #F1F1F1;
+    float: right;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    width: 22%;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 15;
+}
+
+.contact .form form input[type=submit]:hover
+{
+    background:#9BC848; 
+}
+
+
+
+/*
+        ***************************
+    
+           FOOTER STYLES
+        =============================
+*/
+
+.footer
+{
+    padding: 30px;
+}
+
+.footer .rights, .footer .awesome
+{
+    width: 50%;
+    float: left;
+}
+
+.footer .rights .right-info1
+{
+    font-size: 14px;
+    color: rgba(32,32,32,0.7);
+    margin-bottom: 10px;
+}
+
+.footer .rights .right-info2
+{
+    font-size: 13px;
+    color: rgba(32,32,32,0.7);
+}
+
+.footer .rights .right-info2 a
+{
+    text-decoration: none;
+}
+.footer .rights .right-info2 a:hover
+{
+    text-decoration: underline;
+    color: rgba(32,32,32,0.7);
+}
+
+.footer .awesome .foot-awe{
+    width: 55%;
+    margin: auto;
+}
+.footer .awesome .icon
+{
+    
+    color: #333333;
+    font-size: 15px;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-top: 15px;
+    width: 30px;
+    height: 22px;
+    padding-top: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer .awesome .icon:hover
+{
+  background:#F2F2F2;
+
+}
+
+
+/*
+        ***************************
+    
+           media STYLES
+        =============================
+*/
+
+
+/* Start responsive  */
+
+/* Mobile */
+@media (max-width: 767px)
+{
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    
+    .navbar .ul-list {
+        width: 100%;
+        float: none;
+        list-style: none;
+    }
+    
+    .navbar .ul-list .list-item a
+    {
+        font-size: 12px;
+    }
+    
+    .home {
+        height: 65vh;
+    }
+        
+    .home .home-info {
+         padding: 100px 0; 
+    
+    }
+    
+   .home .home-info .home-title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 12px;
+    }
+    
+    .home .home-info .home-title2 {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    
+    .service .box .service-info{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .creative .creative-info {
+        width: 100%;
+        padding-top: 50px;
+        margin-left: 0;
+    }
+    
+    .creative .creative-info .creative-title1 h1 {
+        font-size: 24px;
+    }
+    
+    .creative .creative-info .creative-title2 h2 {
+        font-size: 20px;
+        
+    }
+    
+    .about .about-sol {
+        width: 100%;
+        float: none;
+    }
+    
+    .about .about-prog 
+    {
+        width: 100%;
+        float: none;
+    }
+    
+    .about .about-prog .bar {
+        margin-left: 0;
+        
+    }
+    
+    .team .box1 .box1-img {
+        width: 100%;
+        float: none;
+    }
+    
+    .get .get-info {
+        width: 100%;
+        margin: auto;
+        padding: 70px 0;
+    }
+    
+    .form input[type=text]{
+        width: 100%;
+        
+    }
+    .form input[type=submit]{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .Our-Pricing .pricing-box .pricing-content {
+         width: 100%;
+         float: none;
+    }
+    
+    .project{
+        padding: 100px 0;
+    }
+    .project .box .box-img {
+     width: 100%; 
+     float: none; 
+     margin-left: 0;
+    }
+    
+    .contact
+    {
+        height: 145vh;
+    }
+    .contact .solution .sol, .contact .solution .visit {
+      width: 100%;
+     float: none;
+     margin-bottom: 10px;
+    }
+    
+    .contact .solution {
+        width: 100%;
+        float: none;
+        padding-top: 100px;
+    }
+    
+    .contact .form
+    {
+        padding: 0;
+        width: 100%;
+        float: none;
+    }
+    
+    .contact .solution .sol .awesome .icon
+    {
+        margin-top: 0;
+    }
+    
+    
+    
+    .contact .solution .visit .visit-title
+    {
+        padding-left: 0;
+    }
+    
+    .contact .solution .visit .visit-info
+    {
+       padding-left: 13px;
+        
+    }
+    
+    .contact .form form input[type=text]
+    {
+        width: 100%;
+        float: none;
+    }
+    
+    .contact .form form input[type=email]
+    {
+       width: 100%;
+       float: none; 
+    }
+    
+    .contact .form form input[type=submit]
+    {
+        width: 100%;
+       float: none;
+    }
+    
+    .footer {
+        padding: 20px 0;
+    }
+    .footer .rights, .footer .awesome, .footer .awesome .foot-awe
+    {
+        width: 100%;
+        float: none;
+    }
+
+    
+    
+}
+
+/* laptop */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .navbar .ul-list{
+        width: 100%;
+        margin-left: 71px;
+    }
+    .home{
+        height: 88vh;
+    }
+    .service .box .service-info{
+        width: 100%;
+        margin-left: 0;
+    }
+    .Our-Pricing .pricing-box .pricing-content{
+        width: 50%;
+    }
+    .project .project-box .proj-img{
+        width: 47%;
+        margin-left: 3%
+    }
+    .contact .form form input[type=submit]{
+        width: 30%;
+        float: left
+    }
+    .footer .awesome .foot-awe{
+        width: 100%;
+        margin: 0
+    }
+
+
+/* pc */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .service .box .service-info{
+        width: 100%;
+        margin-left: 0
+    }
+    .footer .awesome .foot-awe{
+        width: 100%;
+        margin: 0
+    }
+}
+    
+ /* larger screen  */
+@media (min-width: 1200px) {
+    /* code*/
+}   

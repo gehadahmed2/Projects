@@ -1,0 +1,1012 @@
+/*
+        ***************************
+    
+            PUBLIC STYLES
+        =============================
+*/
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+
+body{
+    font-family: lucida sans,arial;
+    height: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*
+        ***************************
+    
+            HOME STYLES
+        =============================
+*/
+.home{
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/*
+        ***************************
+    
+            NAVBAR STYLES
+        =============================
+*/
+.home .navbar{
+    width: 100%;
+}
+
+.home .navbar .logo  {
+    padding:  30px 0;
+    width: 50%;
+    float: left;
+}
+.home .navbar .links{
+    padding:  42px 0;
+    width: 50%;
+    float: left;
+}
+
+.home .navbar .links .ul-list{
+    list-style: none;
+}
+.home .navbar .links .ul-list .list-item{
+    display: inline-block;
+}
+
+.home .navbar .links .ul-list .list-item a{
+    text-decoration: none;
+    padding: 0 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.home .navbar .links .ul-list .list-item a:hover{
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.home .get-best{
+    padding: 100px;
+    text-align: center
+}
+.home .get-best .get-title{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    width: 69%;
+    margin: auto;
+}
+.home .get-best .get-desc{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+.home .get-best .get-desc .desc{
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+
+
+
+
+/*
+        ***************************
+    
+            HOME STYLES
+        =============================
+*/
+
+.all-courses{
+    background-image: url(../images/all.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/*
+        ***************************
+    
+            NAVBAR STYLES
+        =============================
+*/
+.all-courses .navbar{
+    width: 100%;
+    
+}
+
+.all-courses .navbar .logo  {
+    padding:  30px 0;
+    width: 50%;
+    float: left;
+}
+.all-courses .navbar .links{
+    padding:  42px 0;
+    width: 50%;
+    float: left;
+}
+
+.all-courses .navbar .links .ul-list{
+    list-style: none;
+}
+.all-courses .navbar .links .ul-list .list-item{
+    display: inline-block;
+}
+
+.all-courses .navbar .links .ul-list .list-item a{
+    text-decoration: none;
+    padding: 0 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.all-courses .navbar .links .ul-list .list-item a:hover{
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.all-courses .get-best{
+    padding: 100px;
+    text-align: center
+}
+.all-courses .get-best .get-title{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    width: 69%;
+    margin: auto;
+}
+.all-courses .get-best .get-desc{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+.all-courses .get-best .get-desc .desc{
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+/*
+        ***************************
+    
+           About
+        =============================
+*/
+
+.about{
+    padding: 100px;
+}
+.about .about-img{
+    width: 50%;
+    float: left;
+}
+.about .about-img img{
+    width: 85%;
+    
+}
+.about .about-desc{
+   width: 50%;
+   float: left;
+   padding-top: 100px; 
+}
+.about .about-desc .about-tit{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.about .about-desc .desc{
+    line-height: 1.8;
+    color: #777777;
+}
+
+
+
+
+/*
+        ***************************
+    
+            FEATURES STYLES
+        =============================
+*/
+.features{
+    padding: 90px;
+    border-top: 1px solid #F2F2F2;
+}
+.features .features-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.features .features-desc{
+     width: 85%;
+    margin: auto
+}
+.features .features-desc .desc{
+    text-align: center;
+    color: grey;
+    line-height: 2;
+    margin-bottom: 45px
+}
+
+/*
+        ***************************
+    
+           WORK STYLES
+        =============================
+*/
+
+.work{
+    padding-bottom: 60px;
+}
+
+.work .part{
+    width: 30%;
+    float: left;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 5%;
+    box-sizing: border-box;
+    background-color: #f1f2ff;
+    margin-bottom: 35px;
+}
+
+.work .first{
+    margin-left: 0;
+}
+
+.work .part .icon{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.work .part .part-title{
+    color:#000;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.work .part .line{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.work .part .part-desc{
+    font-size: 14px;
+    color: #888;
+    padding:20px;
+}
+.work .part:hover{
+    background: #fff;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+/*
+        ***************************
+    
+            CATEGORY STYLES
+        =============================
+*/
+.category{
+    padding: 100px 0;
+    background: #F1F9FF;
+}
+.category .solid{
+    width: 50%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+.category .solid .solid-tit{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.category .solid .solid-desc{
+    color: #777777;
+    line-height: 1.5;
+    width: 70%;
+    margin-bottom: 40px;
+}
+.category .solid .btn{
+    padding: 14px 30px;
+    background: #fff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.category .solid .btn:hover,.category .categora .ul-cate .ul-1 .fa-ul .list-item1:hover{
+    background: #3384BD;
+    color: aliceblue; 
+    transition: 0.3s
+}
+.category .categora{
+   width: 50%;
+   float: left; 
+}
+.category .categora .ul-cate{
+    padding: 30px;
+    background: #fff;
+    width: 80%;
+    margin: auto
+}
+.category .categora .ul-cate .ul-1{
+    width: 48%;
+    float: left;
+}
+.category .categora .ul-cate .ul-1 .fa-ul{
+    
+    
+}
+.category .categora .ul-cate .ul-1 .fa-ul .list-item1{
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: #777777;
+    background:#F1F9FF ;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+
+/*
+        ***************************
+    
+            INSTRUCTORS STYLES
+        =============================
+*/
+
+.instructors{
+    padding: 40px;
+    background-color:aliceblue; 
+    margin-top: 100px;
+}
+.instructors .instructors-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.instructors .instructors-desc{
+     width: 85%;
+    margin: auto
+}
+.instructors .instructors-desc .desc{
+    text-align: center;
+    color: grey;
+    line-height: 2;
+    margin-bottom: 45px
+}
+
+.instructors .inst{
+    width: 22.5%;
+    margin-left: 3.33px;
+    float: left;
+    text-align: center;
+}
+
+.instructors .first{
+    margin-left: 0;
+}
+
+.instructors .inst img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.instructors .inst .inst-name{
+    font-size: 17px;
+    margin-bottom: 10px
+}
+
+.instructors .inst .inst-sp{
+    font-size: 14px;
+    color: #777777;
+}
+
+.instructors .btn-1{
+    text-align: center;
+    padding-top: 75px;
+}
+
+.instructors .btn-1 button
+{
+    padding: 14px 30px;
+    background: #fff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px; 
+}
+
+.instructors .btn-1 button:hover{
+    background: #3384BD;
+    color: aliceblue; 
+    transition: 0.3s;
+}
+
+
+/*
+        ***************************
+    
+          COURSES STYLES
+        =============================
+*/
+
+.courses{
+    padding: 40px; 
+    margin-top: 100px;
+}
+.courses .cor{
+    width: 22.5%;
+    margin-left: 3.33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.courses .first{
+    margin-left: 0;
+}
+
+.courses .cor .cor-name{
+    color:#3384BD;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.courses .btn-1 button
+{
+    padding: 10px 10px;
+    background: #fff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px; 
+    border: 1px solid #3384BD;
+}
+
+.courses .btn-1 button:hover{
+    background: #3384BD;
+    color: aliceblue; 
+    transition: 0.3s;
+}
+
+
+
+/*
+        ***************************
+    
+            OUR-ORSE STYLES
+        =============================
+*/
+.our-course{
+  padding: 100px 0; 
+}
+
+.our-course .box{
+    margin-bottom: 60px;
+}
+.our-course .box .course-img{
+    width: 32%;
+    float: left;
+    margin-left: 2%;
+    background:#edf4f6;
+    margin-bottom: 40px;
+}
+.our-course .box .first{
+    margin-left: 0
+}
+.our-course .box .course-img .image img{
+    width: 100%
+}
+.our-course .box .course-img .image-info{
+    padding: 40px 34px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.our-course .box .course-img .image-info:hover{
+    background:#3384BD;
+}
+.our-course .box .course-img .image-info:hover  h4 ,.our-course .box .course-img .image-info:hover p ,.our-course .box .course-img .image-info:hover span{
+    color: #fff;
+}
+.our-course .box .course-img .image-info h4{
+    font-size: 20px;
+    font-weight: normal;
+    color: #474747;
+    margin-bottom: 8px;
+}
+.our-course .box .course-img .image-info p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: grey;
+}
+.our-course .box .course-img .image-info span{
+    color: #3384BD;
+    font-weight: bold;
+    
+}
+
+.our-course .btn-1 button{
+    padding: 10px 40px;
+    background: #fff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 13px;
+    border: 1px solid #3384BD;
+    margin-top: 20px;
+}
+ .our-course .btn-1 button:hover{
+    background: #fff;
+    color: aliceblue; 
+    transition: 0.3s;
+    color: #3384BD 
+}
+
+
+
+
+/*
+        *****************************
+    
+          ABOUT STYLES
+        =============================
+*/
+
+.about-1{
+    padding: 80px 0;
+    background: #F5F5F5;
+}
+
+.about-1 .img-about{
+    width: 50%;
+    float: left;
+}
+
+.about-1 .img-about img{
+    border: 22px solid #fff;
+    width: 85%;
+    
+}
+
+.about-1 .who-about{
+    width: 50%;
+    float: left
+}
+
+.about-1 .who-about .about-title{
+    margin-left: 5%;
+    font-size: 36px;
+    margin-bottom: 1%;
+}
+
+.about-1 .who-about .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:5px;
+    margin-bottom: 6%;
+    margin-left: 5%
+}
+
+.about-1 .who-about .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+.about-1 .who-about .parent span.sp{
+    width: 5%;
+}
+.about-1 .who-about .sp1{
+    margin-left: 5%;
+    color:#000;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.about-1 .who-about .about-desc{
+    margin-left: 5%;
+    color:grey;
+    line-height: 1.5;
+    margin-bottom: 6%;
+    margin-top: 10px;
+}
+
+.about-1 .who-about .about-choose{
+    margin-left: 5%;
+    font-size: 24px;
+    margin-bottom: 4%;
+}
+
+
+
+.about-1 .who-about .ul-about .ul-1{
+    width: 50%;
+    float: left;
+}
+
+.about-1 .who-about .ul-about .ul-1 .fa-ul{
+    margin-left: 25%;
+}
+
+.about-1 .who-about .ul-about .ul-1 .fa-ul .list-item1{
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: grey;
+}
+
+.about-1 .who-about .ul-about .ul-1 .fa-ul .list-item1 .icon{
+    color: #1F386E;
+    font-size: 11px;
+}
+/*
+        ***************************
+    
+            FORM STYLES
+        =============================
+*/
+
+
+.form-tit{
+    text-align: center;
+    color: #3384BD;
+    padding: 25px;
+    font-size: 37;
+}
+.form .data{
+    margin-bottom: 10px;
+}
+.form .data .data1{
+    width: 20%;
+    float: left;
+    color: #3384BD;
+    font-weight: bold;
+}
+
+.form .data .input .radio{
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-left: 15px;
+  color:#3384BD;
+}
+.form .data .input input{
+    width: 60%;
+    border-radius: 30px;
+    outline: 0;
+    padding: 10px;
+    border:  1px solid #3384BD; 
+}
+
+.form .data .age1 input{
+    width: 40%;
+}
+
+.form .data .input input[type="radio"]{
+    position: absolute;
+    cursor: pointer;
+}
+
+.form .data textarea{
+    width: 60%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #3384BD;
+    outline: 0;
+    margin-bottom: 10px;
+}
+
+
+.form .box{
+   text-align: center;
+    color: #3384BD;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.form  input[type="submit"]{
+    padding: 10px 25px;
+    color: #fff;
+    background: #3384BD;
+    border: 1px solid #3384BD;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.form  input[type="submit"]:hover{
+    background: #fff;
+    color: #3384BD;
+}
+
+  /*      ***************************
+    
+           FOOTER  STYLES
+        =============================
+*/
+.footer{
+    padding: 15px;
+    border-top: 1px solid #F2F2F2
+}
+.footer .rights{
+    width: 50%;
+    float: left;
+    padding: 15px 0;
+}
+
+.footer .rights span{
+    color:#3384BD; 
+}
+.footer .awesome{
+   width: 50%;
+   float: left; 
+}
+.footer .rights .rights-info1{
+    font-size: 16px;
+    color: rgba(32,32,32,0.7);
+    margin-bottom: 10px;
+}
+.footer .rights .rights-info2{
+    font-size: 13px;
+    color: rgba(32,32,32,0.7);
+}
+.footer .rights .rights-info2 a{
+    text-decoration: none;
+}
+.footer .awesome .foot-awe{
+    width: 54%;
+    margin: auto;
+}
+.footer .awesome .icons{
+    color: #3384BD;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-top: 12px;
+    height: 22px;
+    padding-top: 5px;
+}
+
+
+
+/*
+        ***************************
+    
+           media STYLES
+        =============================
+*/
+
+
+/* Start responsive  */
+
+/* Mobile */
+@media (max-width: 767px) {
+    .home .navbar .logo,.home .navbar .links ,.home .get-best .get-desc , .about .about-img ,.about .about-img img, .about .about-desc,.work .part
+    ,.category .solid, .category .categora,.footer .rights,.footer .awesome{
+        width: 100%;
+        float: none;
+    }
+    .home .get-best .get-desc .desc{
+        font-size: 14px;
+    }
+    .home .navbar .links .ul-list .list-item a {
+    padding: 0 12px;
+    }
+    .home .get-best{
+       padding: 65px;
+    }
+    
+    .home .get-best .get-title {
+        width: 100%;
+        font-size: 27px;
+    }
+    
+    .about .about-desc .about-tit, .features .features-title, .category .solid .solid-tit,.instructors .instructors-title {
+        font-size: 22px;
+        text-align: left;
+    }
+    .about .about-desc .desc {
+        font-size: 14px;
+    }
+    .features .features-desc{
+        font-size: 15px;
+    }
+    .features .features-desc .desc{
+        text-align: left;
+    }
+    .work .part{
+        margin-left: 0;
+    }
+    .category .solid{
+        text-align: center;
+    }
+    .category .solid .solid-desc{
+        width: 100%; 
+        font-size: 14px;
+    }
+     .category .categora .ul-cate .ul-1 .fa-ul .list-item1{
+        padding: 20px 4px;
+        font-size: 12px;
+    }
+    
+    .category .solid .btn{
+        margin-bottom: 15px;
+        padding: 11px 7px;
+        font-size: 10px;
+    }
+    .instructors .instructors-title{
+        font-size: 23px;
+    }
+    .instructors .instructors-desc .desc{
+        font-size: 13px;
+    }
+    .instructors .inst{
+        width: 100%;
+        margin-left: 0;
+        float: none;
+        margin-bottom: 25px;
+    }
+    .instructors .btn-1 button{
+       padding: 7px 10px;
+       font-size: 12px; 
+    }
+    /* page2 courses */
+    
+    .courses .cor{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .courses .btn-1 button {
+        padding: 8px 5px;
+        font-size: 11px;}
+    
+    /* page3 all courses*/
+    .our-course .box .course-img{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    
+    /* page4 enroll*/
+    
+    .form .data .data1{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .form .data{
+        margin-bottom: 20px;
+        text-align: center
+    }
+    .form-tit{
+        font-size: 30px;
+    }
+    /* page5 singleinst */
+    .about-1 .img-about,.about-1 .who-about{
+       width: 100%;
+       float: none;
+    }
+    .about-1 .who-about .about-title{
+        font-size: 25px;
+    }
+    .footer .awesome .foot-awe{
+        width: 100%;
+        text-align: right;
+    }
+    .footer .rights{
+        padding: 0 0;
+    }
+    .footer .rights .rights-info1{
+        font-size: 14px;
+    }
+    
+    
+    
+}
+
+/* laptop */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .home .navbar .links{
+      padding: 5px 0;
+        width: 100%;
+    }
+    .home .get-best .get-title{
+        font-size: 38px;
+    }
+    .about .about-img,.about .about-desc{
+        width: 100%;
+        float: none;
+    }
+    .work .part{
+        width: 46%;
+        margin-left: 4%;
+    }
+    .category .solid .solid-tit{
+        font-size: 40px;
+    }
+    .category .categora .ul-cate{
+        width: 100%;
+        padding: 20px 10px;
+        
+    }
+    .category .categora .ul-cate .ul-1 .fa-ul .list-item1{
+        font-size: 12px;
+    }
+    .instructors .inst{
+        width: 46%;
+        margin-left: 4%;
+        margin-bottom: 25px;
+    }
+    
+     /* page2 courses */
+    
+    .courses .cor{
+        width: 46%;
+        float: left;
+        text-align: center;
+        margin-left: 4%;
+    }
+    
+    /* page3 all courses*/
+    .our-course .box .course-img{
+        width: 46%;
+        float: left;
+        margin-left: 4%;
+    }
+    .footer .awesome .foot-awe{
+        width: 100%;
+    }
+}
+/* pc */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home .navbar .links .ul-list .list-item a{
+        padding: 0 16px;
+    }
+    .about .about-img{
+        width: 70%;
+    }
+    .about .about-desc{
+        width: 30%
+    }
+    .footer .awesome .icons{
+        padding-left: 27px;
+    }
+    
+}
+

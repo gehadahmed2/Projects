@@ -1,0 +1,313 @@
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+
+body{
+    font-family: cursive;
+    height: auto;
+}
+
+/*home*/
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/image-01.jpg');
+    background-size: cover;
+    background-position: center center;
+ 
+}
+.home .header ul{
+    list-style: none;
+    text-align: center;
+}
+
+.home .header ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.home .header ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.home .best{
+    text-align: center;
+    padding-top: 12%;
+    color: #fff;
+}
+
+.home .best p.one{
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family:sans-serif;
+    line-height: 1.7;
+}
+
+.home .best p.two{
+    margin-top: 0;
+    font-size: 18px;
+}
+/*HOME SCROLL NAV*/
+.scroll-nav{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 9999;
+}
+
+
+/* ABOUT*/
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/image-02.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.about .about-us{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+
+.about .about-us h2{
+    color: #ffff73;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.about .about-us p {
+    color: #EEE;
+    padding-top: 3%;
+    line-height: 2.5;
+}
+
+
+/* SRVICE*/
+.service{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/image-03.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.service .ser{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    
+}
+
+.service .ser h2{
+    color: #ffff73;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.service .ser p {
+    color: #EEE;
+    padding-top: 5%;
+    line-height: 2;
+}
+
+/*TESTIMONIALS*/
+.testimonials{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/image-04.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.testimonials h2{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.testimonials .test{
+    width: 26%;
+    background: rgba(0,0,0,0.5);
+    height: 250px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 4.5%;
+}
+
+.testimonials .test i{
+    padding-top: 5%;
+}
+
+.testimonials .test p{
+    line-height: 1.8;
+    text-align: left;
+}
+
+/*CONTACT*/
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/image-05.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact .contact-us{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+}
+.contact .contact-us h2{
+    color:#ffff73;
+    padding-top: 10%;
+}
+.contact .contact-us form{
+    width: 80%;
+    margin: auto;
+}
+.contact .contact-us form input{
+    display: block;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 0;
+    height: 30px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.contact .contact-us form textarea{
+     width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.contact .contact-us form input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+/*
+        ***************************
+    
+           media STYLES
+        =============================
+*/
+
+
+/* Start responsive  */
+
+/* Mobile */
+@media (max-width: 767px){
+    .home{
+        height: 92vh;
+    }
+    .home .header ul li{
+        padding: 14px;
+    }
+    .home .header ul li a {
+        font-size: 14px;
+
+    }
+    .home .best{
+        padding-top: 25%;
+    }
+    .home .best p.one{
+        font-size: 24px;
+    }
+    
+    .home .best p.two,.about .about-us h2, .about .about-us p, .service .ser h2{
+        font-size: 15px;
+    }
+    .about .about-us p{
+       padding-top: 14%; 
+    }
+    .service{
+        height: 107vh;
+    }
+    .service .ser p{
+       padding-top: 10%;
+        font-size: 13px;
+    }
+    
+    .testimonials .test{
+        width: 90%;
+        height: 140px;
+        margin-top: 2%;
+        
+        
+    }
+    .testimonials h2{
+       font-size: 18px; 
+    }
+    
+    .contact{
+        height: 95vh;
+    }
+    .testimonials .test p{
+        font-size: 13px;
+    }
+    .contact .contact-us h2{
+        font-size: 18px;
+        margin-bottom: 4%
+    }
+    .contact .contact-us form input[type="submit"]{
+        width: 100%;
+        font-size: 16px;
+    }
+    
+}
+
+
+/* laptop */
+@media (min-width: 768px) and (max-width: 991px){
+    .testimonials h2{
+        margin-bottom: 2%;
+    }
+    
+    .testimonials .test{
+       height: 275px; 
+    }
+    
+    .contact .contact-us form input[type="submit"]{
+        width: 40%;
+    }
+}

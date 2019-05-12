@@ -1,0 +1,715 @@
+/*
+        *****************************
+    
+            PUBLIC STYLES
+        =============================
+*/
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: lucida sans,arial;
+    height: auto;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+/*
+        *****************************
+    
+           NAVBAR STYLES
+        =============================
+*/
+
+.navbar{
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+
+.navbar .logo{
+    width: 50%;
+    float: left;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold
+}
+
+.navbar input ,.navbar label{
+    position: absolute;
+    top: 13px;
+    right: 25px;
+}
+
+.navbar input{
+    display: none;
+}
+
+.navbar label{
+    display: block;
+    width:15px;
+    height: 15px;
+    background: url('../images/navbar/open.png') no-repeat;
+    background-size: cover;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar input:checked ~ .ul-list{
+    display: block;
+}
+
+.navbar input:checked ~ label{
+    background: url('../images/navbar/close.png') no-repeat;
+    background-size: cover;
+}
+
+.navbar .ul-list{
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+
+.navbar .ul-list .list-item{
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a{
+    display: block;
+    text-decoration: none;
+    color: #222;
+    padding: 10px 15px;
+    font-weight: bold
+}
+.navbar .ul-list .list-item a:hover{
+    color: #eb5424;
+}
+
+/* media for navbar style */
+
+@media (min-width:992px){
+    .navbar label{
+        display: none
+    } 
+}
+
+@media (max-width : 991px){
+    .navbar .logo{
+        width: 100%;
+        float: none; 
+    }
+    
+    .navbar .ul-list{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        display: none
+    }
+    
+    .navbar .ul-list .list-item{
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar .ul-list .list-item a:hover{
+        background: #222;
+        color: #fff;
+    }
+}
+
+/*
+        *****************************
+    
+            Home STYLES
+        =============================
+*/
+
+.home{
+    height: 500px;
+    background: url('../images/Home/home-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+}
+
+.home .home-information{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .home-information .home-title{
+    font-size: 60px;
+    font-weight: bold;
+    color:#5e5e5e;
+    margin-bottom: 20px;
+}
+
+.home .home-information .home-info{
+    font-size: 35px;
+    color:#eb5424;
+    margin-bottom: 20px;
+}
+
+.home .home-information .home-descreption{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.home .home-information .home-descreption span{
+    color: #000;
+}
+
+.home .home-information .home-btn{
+    background:#eb5424;
+    color: #fff;
+    font-size: 18px;
+    width:150px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.home .home-information .home-btn:hover{
+    background:#fff;
+    color: #eb5424;
+}
+
+/* media for Home style */
+
+@media (max-width:768px){
+    .home .home-information .home-title{
+        font-size:40px; 
+        color: #fff;
+    }
+    
+    .home .home-information .home-info{
+         font-size: 25px;
+    }
+    
+    .home .home-information .home-descreption{
+        font-size:15px; 
+    }
+}
+
+/*
+        *****************************
+    
+           Work STYLES
+        =============================
+*/
+
+.work{
+    height: auto;
+    padding: 50px 0;
+    background: #fff;
+    overflow: hidden; /* 3shan div elwork y7s blmo7tawa bta3oh */
+}
+
+.work .work-title{
+    font-size: 60px;
+}
+
+.work .work-title span{
+    font-weight: normal;
+}
+
+.work .part{
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+    height: auto;
+    padding: 100px 0;
+    border: 1px solid #888;
+    text-align: center;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+
+.work .first{
+    margin-left: 0;
+}
+
+.work .part .icon{
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.work .part .part-title{
+    color:#eb5424;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.work .part .line{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.work .part .part-desc{
+    font-size: 14px;
+    color: #888;
+    padding:20px;
+}
+
+/* media for work */
+@media (max-width:768px){
+    .work .part{
+        width: 47%;
+    }
+    
+    .work .last{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:575px){
+    .work .part{
+        width: 100%;
+        float: 0;
+        margin-left: 0
+    }
+}
+
+/*
+        *****************************
+    
+           Portfolio STYLES
+        =============================
+*/
+
+.portfolio{
+    background: #f8f8f8;
+    padding-top: 20px;
+    overflow: hidden
+}
+
+.portfolio .portfolio-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.portfolio .portfolio-title span{
+    font-weight: normal
+}
+
+.portfolio .portofolio-list{
+    text-align: center;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.portfolio .portofolio-list .portofolio-item{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+}
+
+.portfolio .portofolio-list .portofolio-item.active{
+    background:#eb5424;
+    color: #fff;
+}
+
+.box div{
+    width: 25%;
+    float: left;
+    font-size: 0; /* lkl div elfont size bta3oh zero 3shan y5fi elmasafat eli zahrt maben el 4 swar eli fo2 w 4 swar eli ta7t */
+    position: relative
+}
+
+.box div img{
+    width: 100%
+}
+
+.box div .overlay{
+    font-size: 15px;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(235,84,36,0.5);
+    text-align: center;
+    opacity: 0;
+}
+.box div .overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #eb5424;
+}
+
+.box div:hover .overlay{
+    opacity: 1;
+}
+/* media for portofolio */
+@media (max-width:768px){
+    .box div{
+        width: 50%;
+    }
+}
+
+@media (max-width:575px){
+    
+    .portfolio .portofolio-list .portofolio-item{
+        display: block;
+        margin: auto;    /*talama wa5d display block 22dr ageb ellist f nos b margin auto msh lazm 2di l ul text-align:center 3shan agbha f nos */ 
+    }
+    
+    .box div{
+        width: 100%;
+    }
+}
+
+/*
+        *****************************
+    
+           profile + skills STYLES
+        =============================
+*/
+.profile-skills{
+    padding: 50px 0;
+    overflow:hidden;
+}
+.profile-skills .profile{
+    width: 50%;
+    float: left;
+}
+
+.profile-skills .profile .profile-list{
+    list-style: none;
+}
+
+.profile-skills .profile .profile-list .profile-item{
+    margin-bottom: 8px;
+}
+
+.profile-skills .profile .profile-list .profile-item span{
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+.profile-skills .profile .profile-list .profile-item span.web{
+    font-weight: normal;
+    color: #eb5424;
+}
+
+.profile-skills .skills{
+    width: 50%;
+    float: left
+}
+
+.profile-skills .skills .skills-desc{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.profile-skills .skills .bar{
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.profile-skills .skills .bar .title{
+    float: left;
+}
+
+.profile-skills .skills .bar .perc{
+    float: right;
+    margin-right: 100px
+}
+
+.profile-skills .skills .bar .parent{
+    height: 2px;
+    background: #f8f8f8;
+    clear: both;
+    position: relative;
+    top:5px;
+}
+
+.profile-skills .skills .bar .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    
+}
+
+.profile-skills .skills .bar .parent span.sp1{
+    width:100%;
+   
+}
+
+.profile-skills .skills .bar .parent span.sp2{
+    width: 90%;
+   
+}
+
+.profile-skills .skills .bar .parent span.sp3{
+    width:80%;
+   
+}
+
+.profile-skills .profile .profile-title,.profile-skills .skills .skills-title{
+    font-size:40px; 
+    margin-bottom: 20px;
+}
+
+.profile-skills .profile .profile-title span,.profile-skills .skills .skills-title span{
+    font-weight: normal;
+}
+/* media for profile + skills */
+@media (max-width:575px){
+    .profile-skills .profile,.profile-skills .skills{
+        width: 100%;
+        float: none
+    }
+    .profile-skills .profile{
+        margin-bottom: 20px;
+    }
+}
+
+/*
+        *****************************
+    
+          Creative STYLES
+        =============================
+*/
+.creative{
+    height: 500px;
+    background: url("../images/creative/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.creative .creative-info{
+    width: 50%;
+    float: right;
+    padding-top: 100px
+}
+
+.creative .creative-info .info-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.creative .creative-info .info-title span{
+    font-weight: normal
+}
+
+.creative .creative-info .info-dir{
+    font-size: 40px;
+    color: #eb5424;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.creative .creative-info .info-dir span{
+    font-weight: normal;
+    opacity: 0.5
+}
+
+.creative .creative-info .info-desc{
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 15px
+}
+.creative .creative-info .info-desc a{
+    text-decoration: none;
+}
+
+@media (max-width:991px){
+    .creative{
+        height: auto;
+    }
+    .creative .creative-info{
+        width: 100%
+        padding:10px;
+        float: none
+    }
+    .creative .creative-info .info-dir{
+        font-size: 30px;
+    }
+}
+
+/*
+        *****************************
+    
+           social media STYLES
+        =============================
+*/
+.social-media{
+    height: auto;
+    overflow: hidden
+}
+
+.social-media .social{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box; /* 3shan lw adit padding aw margin msh y2sr f width */
+    padding: 100px 0 100px 60px ;
+}
+
+.social-media .social.face{
+    background: #3b5998;
+}
+
+.social-media .social.tweeter{
+    background: #498cbf;
+}
+
+.social-media .social.pin{
+    background: #cc2127;
+}
+
+.social-media .social .icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+    margin-right: 10px;
+    color: #888;
+}
+
+.social-media .social p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.social-media .social p span{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.social-media .social p span.info2{
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+@media (max-width:991px){
+    .social-media .social{
+        width:100%;
+        float: none
+    }
+}
+
+/*
+        *****************************
+    
+          Drop STYLES
+        =============================
+*/
+.drop{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.drop .drop-title{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.drop .drop-title span{
+    font-weight: normal
+}
+
+.drop form{
+    width:70%; /* mn 7gm el container */
+    margin: auto; /* 3shan a5li elform f nos */    
+}
+
+.drop form input{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: 0; /* 3shan nshel el border elazr2 el 7walen el inputs */
+}
+
+.drop form .form-input input{
+    width: 49%;
+}
+
+.drop form .form-input{
+    overflow: hidden;
+}
+
+.drop form .form-input input[type=text]{
+    float: left;
+}
+
+.drop form .form-input input[type=email]{
+    float: right;
+}
+
+.drop form input.sub{
+    width: 100%;
+}
+
+.drop form textarea{
+    width: 100%;
+    background: #ccc;
+    outline: 0
+}
+
+.drop form input[type=submit]{
+    width: 60%;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #888;
+    cursor: pointer;
+}
+
+@media (max-width:575px){
+    .drop .drop-title{
+        font-size: 40px;
+    }
+    
+    .drop form .form-input input{
+        width:100%
+    }
+}
+
+/*
+        =====================================================
+    
+          footer STYLES
+        =============================
+*/
+.footer{
+    text-align: center;
+    padding: 10px 0
+}
+
+.footer p{
+    color: #888;
+    margin: 0
+}
+    

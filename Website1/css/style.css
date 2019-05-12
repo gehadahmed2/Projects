@@ -1,0 +1,1023 @@
+/*
+        *****************************
+    
+            PUBLIC STYLES
+        =============================
+*/
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+
+body{
+    font-family: lucida sans,arial;
+    height: auto;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.navbar{
+    padding: 25px 0;
+    background:#fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar .logo{
+    width: 25%;
+    float: left;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F386E
+}
+
+.navbar .call{
+    width: 25%;
+    float: left;
+   
+    
+}
+
+.navbar .call .call-desc{
+   color: #1F386E;
+   
+}
+
+.navbar .call .call-desc span{
+    display: block;
+    margin-top: 2px;
+    color: darkgray;
+    
+}
+
+.navbar input ,.navbar label{
+    position: absolute;
+    top: 13px;
+    right: 25px;
+}
+
+.navbar input{
+    display: none;
+}
+
+.navbar label{
+    display: block;
+    width:15px;
+    height: 15px;
+    background: url('../images/icon.png.png') no-repeat;
+    background-size: cover;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar input:checked ~ .ul-list{
+    display: block;
+}
+
+.navbar input:checked ~ label{
+    background: url('../images/icon.png.png') no-repeat;
+    background-size: cover;
+}
+
+.navbar .ul-list{
+    width: 50%;
+    float: left;
+    list-style: none;
+}
+
+.navbar .ul-list .list-item{
+    display: inline-block;
+   
+}
+
+.navbar .ul-list .list-item a{
+    display: block;
+    text-decoration: none;
+    color: #1F386E;
+    padding: 10px 13px;
+    font-weight: bold;
+}
+
+.navbar .ul-list .list-item a:hover{
+    color: #D72A36;
+}
+
+
+
+/* media for navbar style */
+
+/*
+@media (max-width:767px){
+    .navbar .logo{
+        width: 100%;
+        float: none; 
+    }
+    
+    .navbar .ul-list{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        display: none
+    }
+    
+    .navbar .ul-list .list-item{
+        display: block;
+        text-align: left;
+    }
+    
+    .navbar .ul-list .list-item a:hover{
+        color: #DB6536;
+    }
+    
+    .navbar .call{
+        width: 100%;
+        text-align: center
+    }
+}
+
+@media (min-width:768px)and (max-width:991px){
+    
+         .navbar .ul-list{
+                width: 100%;
+                text-align: center;
+                list-style: none;
+                padding: 36px 0;
+                float: left;
+    }
+    
+    .navbar .call .call-desc{
+        text-align: center;
+    }
+}
+@media (min-width:992px)and (max-width:1336px){
+    
+        .navbar .ul-list{
+            width: 100%;
+            text-align: right;
+            list-style: none;
+            padding: 36px 0;
+            float: left;
+            
+    }
+    
+    
+    .navbar .ul-list .list-item a{
+        display: block;
+        text-decoration: none;
+        color: #1F386E;
+        padding: 10px 12px;
+        font-weight: bold;
+        
+    }
+}
+*/
+
+/*
+        *****************************
+    
+            Home STYLES
+        =============================
+*/
+
+.home{
+    height: 100vh;
+    background: url('../images/intro-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+/*        position: relative;*/
+}
+
+.home .home-info{
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+/*
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+*/
+}
+
+.home .home-info .home-title{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home .home-info .home-desk {
+/*    height: 100px;*/
+    color: #fff;
+    font-size: 20px;
+     padding: 10px 5px;
+    background: rgba(0,0,0, .5);
+/*    opacity: 0.5;*/
+    margin-bottom: 30px;
+}
+
+.home .home-info .btn{
+    height: 45px;
+}
+
+.home .home-info .btn button{
+   border-radius: 6px; 
+    font-size:16px;
+    background: #DE2A36;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.home .home-info .btn button:hover{
+    background: #1F386E;
+}
+
+/* media for home */
+
+
+/*
+@media (min-width:1331px) and (max-width:1330px){
+    .home .home-info .home-title{
+            height: 133px;
+            font-size: 30px;
+            color: #fff;
+              
+    } 
+}
+*/
+
+/*
+        *****************************
+    
+           COST STYLES
+        =============================
+*/
+.cost {
+    background-color: #1F386E;
+    padding: 38px 0;
+}
+.cost .cost-title, .cost .btn {
+    width: 50%;
+    float: left;
+} 
+.cost .cost-title h2, .cost .cost-title p {
+    margin-top: 10px;
+    margin-left: 70px;
+    color: #fff;
+    font-weight: normal;
+}
+.cost .btn button {
+    display: inline-block;
+    margin-left: 32%;
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background:#1F386E;
+    color: #fff;
+    outline: 0;
+    cursor: pointer;
+    
+}
+
+.cost .btn button:hover{
+    background: #fff;
+    color: #1F386E;
+}
+/*
+.cost{
+    height: 130px;
+    background: #1F386E;
+}
+
+.cost .cost-title{
+    width: 50%;
+    float: left;
+    height: 100px;
+    
+}
+
+.cost .cost-title .title{
+    margin-top: 35px;
+    margin-left: 70px;
+    font-weight: normal;
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 10px
+}
+
+.cost .cost-title .desc{
+    margin-left: 70px;
+    color: #ddd;
+}
+
+.cost .btn{
+    width:50%;
+    height: 100px;
+    float: left    
+}
+
+.cost .btn button{
+   margin-left: 35%;
+    margin-top: 6%;
+    height: 48px;
+    width: 26%;
+    background: #1F386E;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 0
+}
+
+
+*/
+
+/*
+        *****************************
+    
+          ABOUT STYLES
+        =============================
+*/
+.about{
+    padding: 80px 0;
+    background: #F5F5F5;
+}
+
+.about .img-about{
+    width: 50%;
+    float: left;
+}
+
+.about .img-about img{
+    border: 22px solid #fff;
+    width: 85%;
+    
+}
+
+.about .who-about{
+    width: 50%;
+    float: left
+}
+
+.about .who-about .about-title{
+    margin-left: 5%;
+    font-size: 36px;
+    margin-bottom: 1%;
+}
+
+.about .who-about .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:5px;
+    margin-bottom: 6%;
+    margin-left: 5%
+}
+
+.about .who-about .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+.about .who-about .parent span.sp{
+    width: 5%;
+}
+
+.about .who-about .about-desc{
+    margin-left: 5%;
+    color:grey;
+    line-height: 1.5;
+    margin-bottom: 6%;
+}
+
+.about .who-about .about-choose{
+    margin-left: 5%;
+    font-size: 24px;
+    margin-bottom: 4%;
+}
+
+
+
+.about .who-about .ul-about .ul-1{
+    width: 50%;
+    float: left;
+}
+
+.about .who-about .ul-about .ul-1 .fa-ul{
+    margin-left: 25%;
+}
+
+.about .who-about .ul-about .ul-1 .fa-ul .list-item1{
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: grey;
+}
+
+.about .who-about .ul-about .ul-1 .fa-ul .list-item1 .icon{
+    color: #1F386E;
+    font-size: 11px;
+}
+
+/*
+        *****************************
+    
+         Our-services  STYLES
+        =============================
+*/
+
+.our-services{
+    
+    background: #fff;
+    
+}
+
+.our-services .services-title{
+    padding-top: 6%;
+    font-size: 36px;
+}
+
+.our-services .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:8px;
+    margin-bottom: 7%;
+    
+}
+
+.our-services .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+.our-services .parent span.sp{
+    width: 5%;
+}
+
+.box .box-img{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 25px;
+}
+
+.box .first{
+    margin-left: 0
+}
+
+.box .box-img img{
+    width: 100%;
+}
+
+.box .box-img .img-title{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.box .box-img .img-desc{
+    color: grey;
+    line-height: 1.5;
+}
+
+/*
+        *****************************
+    
+         Our-works  STYLES
+        =============================
+*/
+.our-works{
+    background:#F0F0F0;
+}
+
+.our-works .works-title{
+    font-size: 36px;
+    padding-top:6%;
+}
+
+.our-works .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:8px;
+    margin-bottom: 7%;
+    
+}
+
+.our-works .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+.our-works .parent span.sp{
+    width: 5%;
+}
+
+
+.our-works .box1 .work-img{
+    width: 31.33%;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 3%;
+    
+}
+
+.our-works .box1 .first{
+    margin-left: 0;
+}
+
+.our-works .box1 .work-img img{
+    width: 100%;
+}
+
+.our-works .box1 .work-img .overlay{
+    font-size: 18px;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(59, 78, 122,0.9);
+    text-align: center;
+    opacity: 0;
+    color: #fff
+}
+
+.our-works .box1 .work-img .overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+.our-works .box1 .work-img:hover .overlay{
+    opacity: 1;
+}
+
+/*
+        *****************************
+    
+         Testimonials  STYLES
+        =============================
+*/
+
+.Testimonials .test-title{
+    font-size: 36px;
+    padding-top:6%;
+}
+
+ .Testimonials .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:8px;
+    margin-bottom: 7%;
+    
+}
+
+.Testimonials .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+ .Testimonials .parent span.sp{
+    width: 5%;
+}
+
+.Testimonials .box2{
+    background: #fff;
+}
+
+.Testimonials .box2 .box2-info{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.Testimonials .box2 .box2-info .box2-img .img-holder {
+    width: 20%;
+    float: left;
+}
+.Testimonials .box2 .box2-info .box2-img .content-holder {
+    width: 80%;
+    float: left;
+}
+
+ .Testimonials .box2 .first{
+    margin-left: 0;
+}
+
+
+.Testimonials .box2 .box2-info .Testimonials-desc{
+    margin-left: 23%;
+    line-height: 1.5;
+    font-family: arial;
+    color: grey;
+    font-style: italic
+}
+
+.Testimonials .box2 .box2-info .Testimonials-title{
+    margin-left: 23%;
+    font-size: 15px;
+    margin-top: 11px;
+    color: #666666;
+    font-family: arial;
+    font-style: italic
+}
+
+/*
+        *****************************
+    
+            CONTACT STYLES
+        =============================
+*/
+
+.contact{
+    background: #1F386E;
+}
+
+.contact .in-touch{
+    width: 60%;
+    float: left;
+}
+
+.contact .in-touch .contact-title{
+    font-size: 36px;
+    padding-top:6%;
+    color: #fff;
+}
+
+.contact .in-touch .parent{
+    height: 2px;
+    background: #E0E0E0;
+    clear: both;
+    position: relative;
+    top:8px;
+    margin-bottom: 3%;
+}
+
+.contact .in-touch .parent span{
+    background:#eb5424; 
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+
+.contact .in-touch .parent span.sp{
+    width: 7%;
+}
+
+.contact .in-touch .cont-desc{
+    margin-bottom: 8%;
+    color:#ABA1A8;
+    font-size:15px; 
+}
+
+.contact .in-touch form{
+    width: 100%
+}
+
+.contact .in-touch form input{
+    box-sizing: border-box;
+    margin-bottom: 17px;
+    padding: 9px;
+    outline: 0; /* 3shan nshel el border elazr2 el 7walen el inputs */
+}
+
+.contact .in-touch form .form-input input{
+    width:49%   
+   
+}
+
+ .drop form .form-input{
+    overflow: hidden;
+}
+
+ .contact .in-touch form .form-input input[type=text]{
+    float: left;
+}
+
+.contact .in-touch form .form-input input[type=email]{
+    float: right;
+}
+
+.contact .in-touch form textarea{
+    width: 100%;
+    outline: 0;
+    margin-bottom: 4%;
+    
+}
+  
+
+ .contact .in-touch form input[type=submit]{
+    
+    background: #1F386E;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    height: 53px;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 15px; 
+}
+
+.contact .in-touch form input[type=submit]:hover{
+    background: #fff;
+    color: #1F386E;
+}
+
+.cont-info{
+    width:40%;
+    float: left;
+}
+
+.cont-info .cont-title{
+    padding-top: 12%;
+    margin-left: 20%;
+    color: #fff;
+    font-weight: normal
+}
+
+.cont-info hr{
+    margin-top: 3%;
+    margin-left: 21%;
+    color: #88AEC8;
+    margin-bottom: 13%;
+}
+
+.cont-info .information-1{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.cont-info .first{
+     margin-left: 20%;
+    margin-bottom: 5%;
+    width: 36%
+}
+
+.cont-info .information-1 h4{
+    color: #fff;
+    font-weight: normal
+}
+
+.cont-info .information-1 p{
+    color: #ABA1A8;
+    margin-top: 4PX;
+}
+
+.awesome{
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.awesome .icon{
+    margin-top: 40px;
+    padding-left: 60px;
+    font-size: 26px;
+    color: #ABA1A8;
+    cursor: pointer
+}
+
+.awesome .icon:hover{
+    color: #fff;
+}
+
+/*
+        *****************************
+    
+          footer STYLES
+        =============================
+*/
+.footer{
+    text-align: center;
+    padding: 33px 0;
+    background: #F6F6F6;
+}
+
+.footer p{
+    color: #888;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #1F386E;
+}
+
+.footer p a:hover{
+    color: #E72F41;
+}
+
+
+/* Start responsive  */
+
+/* Mobile */
+@media (max-width: 767px) {
+    .navbar .logo {
+        width: 50%;    
+    }
+    .navbar .call {
+        width: 50%;
+        text-align: right;
+    }
+    .navbar .ul-list {
+        width: 100%;
+        float: none;
+    }
+    .navbar .ul-list .list-item a {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .home .home-info .home-title {
+        font-size: 14px;
+    }
+    .home .home-info {
+        padding-top: 150px;
+        width: 90%;
+    }
+    .about .img-about, .about .who-about, .box .box-img, .our-works .box1 .work-img {
+        width: 100%;
+        float: none;
+    }
+    .cost .cost-title h2, .cost .cost-title p{
+        margin-left: 0;
+    }
+    
+    .cost .cost-title h2{
+        font-size: 16px;
+    }
+    .cost .cost-title p{
+        font-size: 13px;
+    }
+    .cost .btn button{
+        padding: 6px;
+    }
+    .Testimonials .box2 .box2-info{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .contact .in-touch{
+        width: 100%;
+        float: none;    
+    }
+    .contact .in-touch .contact-title {
+        font-size: 17px
+    }
+    .contact .in-touch .cont-desc{
+        font-size: 14px;
+    }
+    .contact .in-touch form input[type=submit]{
+        padding: 13px;
+    }
+    .cont-info{
+        width: 100%;
+        float: none;    
+    }
+    .cont-info .cont-title, .cont-info hr, .cont-info .information-1, .cont-info .first{
+        margin-left: 0;
+    }
+    .awesome .icon{
+        padding-left: 25px;
+        font-size: 22px;
+    }
+    
+}
+
+/* laptop */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home .home-info{
+        padding-top: 185px;
+    }
+    .home .home-info .home-title{
+        font-size: 16px;
+    }
+    .cost .cost-title h2, .cost .cost-title p{
+        width: 100%;
+    }
+    
+    .box .box-img{
+    width: 100%;
+    float: none;
+    margin-bottom: 25px;
+        }
+    
+    .our-works .box1 .work-img{
+    width: 100%;
+    float: none;
+    
+  }
+    
+   .Testimonials .box2 .box2-info{
+        width: 100%;
+        margin-left: 0;
+        float: none;
+    }
+    .Testimonials .box2 .box2-info .Testimonials-desc,.Testimonials .box2 .box2-info .Testimonials-title{
+        margin-left: 20%;
+    }
+    .contact .in-touch .contact-title{
+        font-size: 25px;
+    }
+    
+    .Testimonials .box2 .box2-info{
+        width: 100%;
+        margin-left: 0;
+        float: none;
+    }
+    .Testimonials .box2 .box2-info .Testimonials-desc,.Testimonials .box2 .box2-info .Testimonials-title{
+        margin-left: 20%;
+    }
+    .contact .in-touch .contact-title{
+        font-size: 25px;
+    }
+    
+    .cont-info hr{
+        margin-top: 2%;
+    }
+        
+
+}
+
+
+/* pc */
+@media (min-width: 992px) and (max-width: 1199px) {
+/*    code */
+    
+    .navbar .ul-list .list-item a {
+        padding: 10px 6px;
+    }
+    
+    .home{
+        height: 130vh;
+    }
+    
+     .home .home-info{
+        padding-top: 124px;
+    }
+    .home .home-info .home-title{
+        font-size: 20px;
+    }
+    .home .home-info .home-desk{
+        margin-bottom: 20px;
+    }
+    
+    .Testimonials .box2 .box2-info .Testimonials-desc,.Testimonials .box2 .box2-info .Testimonials-title {
+        margin-left: 30%;
+    }
+}
+
+/* larger screen  */
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
